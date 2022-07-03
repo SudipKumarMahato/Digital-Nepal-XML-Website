@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- linking the external css in the file -->
+<?xml-stylesheet href="./catalog_20049066.css" type="text/css"?>
+<!--creating root element digitalnepal containing all the elements -->
+<digitalnepal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_20049066.xsd">
+    <!--heading element starts here -->
+    <storeHeading>
+
+        <headingMaxWidth>
+            <!--logo of the webpage -->
+            <headingLogo />
+
+            <!--navigation links -->
+            <headingLinkContainer>
+                <headingLink status="active">Home</headingLink>
+                <headingLink status="inactive">Products</headingLink>
+                <headingLink status="inactive">Services</headingLink>
+                <headingLink status="inactive">Contact us</headingLink>
+                <headingLink status="inactive">Cards</headingLink>
+            </headingLinkContainer>
+
+
+            <!-- making the shortcut navigation -->
+            <headingInfo>
+                <!-- making the userProfile -->
+                <userProfile>
+                    <userImageConatiner>
+                        <userImage />
+                    </userImageConatiner>
+                    <userDropContentContainer>
+                        <userDropContent>
+                            <dropItem>
+                                <dropIcon content="user" />
+                                My Profile
+                            </dropItem>
+                            <dropItem>
+                                <dropIcon content="wishlist" />
+                                My Wishlist
+                            </dropItem>
+                            <dropItem>
+                                <dropIcon content="order" />
+                                My Order
+                            </dropItem>
+                            <dropItem>
+                                <dropIcon content="delivery" />
+                                Delivery
+                            </dropItem>
+                            <dropItem>
+                                <dropIcon content="help" />
+                                Help
+                            </dropItem>
+                            <dropItem>
+                                <dropIcon content="logout" />
+                                Logout
+                            </dropItem>
+                        </userDropContent>
+                    </userDropContentContainer>
+                </userProfile>
+            </headingInfo>
+        </headingMaxWidth>
+    </storeHeading>
+
+    <!--the store products and description starts here -->
+    <storeContent>
+        <storeDescription>
+            <descriptionLeft>
+                <descriptionLogo />
+                <descriptionHeading>DIGITAL NEPAL</descriptionHeading>
+                <descriptionPara>Digital Nepal is the leading giftcard website, and it is our mission to provide smiles by offering personalized git cards and customers greetings. It is the best place to buy e-gift card, Visa, choice cards or bulk gift cards online.</descriptionPara>
+                <descriptionButton>Learn More</descriptionButton>
+                <contacts>
+                    <address>
+                        <addressIcon />
+                        London, United Kingdom
+                    </address>
+                    <telephone>
+                        <telephoneIcon />
+                        +933 9816725300
+                    </telephone>
+                    <mail>
+                        <mailIcon />
+                        digitalnepal@gmail.com
+                    </mail>
+                </contacts>
+
+            </descriptionLeft>
+            <descriptionRight>
+                <sliderContainer>
+                    <slider>
+                        <sliderImage />
+                        <sliderInfo></sliderInfo>
+                    </slider>
+
+                </sliderContainer>
+            </descriptionRight>
+        </storeDescription>
+        <!--the store products and description starts here -->
+
+
+        <!-- making the store products -->
+        <storeProducts>
+            <!-- making the store product No.1 -->
+            <product product="product1">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>Google Play Store</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>Google</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>Yes</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Digital</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Validity : </detailQuestion>
+                        <detailAnswer>2 Months</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>5</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>G-Mail</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 50</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+
+            <!-- making the store product No.2 -->
+            <product product="product2">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>PUBG Mobile UC Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>PUBG</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>No</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Digital</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Discount : </detailQuestion>
+                        <detailAnswer>25%</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>5</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>G-Mail</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 150</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+            <!-- making the store product No.3 -->
+            <product product="product3">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>Razer Gold PIN</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>Razer</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>Yes</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Physical</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Validity : </detailQuestion>
+                        <detailAnswer>1 Months</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>1</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>On-site</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 500</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+
+            <!-- making the store product No.4 -->
+            <product product="product4">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>Amazon Gift Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>Amazon</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Refundable: </detailQuestion>
+                        <detailAnswer>Yes</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Digital</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Validity : </detailQuestion>
+                        <detailAnswer>3 Months</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>2</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>G-Mail</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 250</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+            <!-- making the store product No.5 -->
+            <product product="product5">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>Steam Gift Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>Steam</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Useability: </detailQuestion>
+                        <detailAnswer>1 time</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Digital</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Validity : </detailQuestion>
+                        <detailAnswer>12 Months</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>50</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>G-Mail</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 50</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+
+            <!-- making the store product No.6 -->
+            <product product="product6">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>iTunes Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>iTune</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>Yes</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Physical</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Validity : </detailQuestion>
+                        <detailAnswer>4 Months</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>5</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>On-site</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 350</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+
+            <!-- making the store product No.7 -->
+            <product product="product7">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>Big Music Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>Big Music</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>No</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Digital</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Validity : </detailQuestion>
+                        <detailAnswer>8 Months</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>10</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>G-Mail</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 155</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+
+            <!-- making the store product No.8 -->
+            <product product="product8">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>Wallmart Reedem Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>Wallmart</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>No</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Physical</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Validity : </detailQuestion>
+                        <detailAnswer>6 Months</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>25</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>On-site</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 850</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+
+            <!-- making the store product No.9 -->
+            <product product="product9">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>VPN Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>VPN</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>Yes</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Digital</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Validity : </detailQuestion>
+                        <detailAnswer>6 Months</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>3</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>G-Mail</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 650</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+
+            <!-- making the store product No.10 -->
+            <product product="product10">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>Game Gift Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>Game Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>Yes</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Digital</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Weight: </detailQuestion>
+                        <detailAnswer>Light-weight</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>1</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>G-Mail</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 512</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+
+            <!-- making the store product No.11 -->
+            <product product="product11">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>XBox Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>Microsft</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>No</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Digital</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Validity : </detailQuestion>
+                        <detailAnswer>2 Months</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>5</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>G-Mail</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 850</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+            <!-- making the store product No.12 -->
+            <product product="product12">
+                <productView>
+                    <!-- making the store product hover -->
+                    <productImageContainer>
+                        <productImage />
+                        <productHover>
+                            <productPreview>
+                                <previewIcon />
+                                Preview
+                            </productPreview>
+                            <productWishlist>
+                                <wishlistIcon />
+                                Wishlist
+                            </productWishlist>
+                        </productHover>
+                    </productImageContainer>
+                    <productButtonContainer>
+                        <buyButton>Purchase</buyButton>
+                        <addCartButton>Add to Cart</addCartButton>
+                    </productButtonContainer>
+                </productView>
+                <productDetail>
+                    <detailContainer>
+                        <detailQuestion>Name : </detailQuestion>
+                        <detailAnswer>Nintendo Card</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Brand : </detailQuestion>
+                        <detailAnswer>Nintendo</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Availability: </detailQuestion>
+                        <detailAnswer>Yes</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Type : </detailQuestion>
+                        <detailAnswer>Digital</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Category : </detailQuestion>
+                        <detailAnswer>Game</detailAnswer>
+                    </detailContainer>
+
+                    <detailContainer>
+                        <detailQuestion>Maximum User : </detailQuestion>
+                        <detailAnswer>7</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Delivery : </detailQuestion>
+                        <detailAnswer>G-Mail</detailAnswer>
+                    </detailContainer>
+                    <detailContainer>
+                        <detailQuestion>Price : </detailQuestion>
+                        <detailAnswer>$ 950</detailAnswer>
+                    </detailContainer>
+                </productDetail>
+            </product>
+        </storeProducts>
+    </storeContent>
+</digitalnepal>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="digitalnepal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="storeHeading">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="headingMaxWidth">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="headingLogo" />
+                                        <xs:element name="headingLinkContainer">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="headingLink" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute type="xs:string" name="status" use="optional" />
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="headingInfo">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="userProfile">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="userImageConatiner">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="userImage" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="userDropContentContainer">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="userDropContent">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                        <xs:element name="dropItem" maxOccurs="unbounded" minOccurs="0">
+                                                                                            <xs:complexType mixed="true">
+                                                                                                <xs:sequence>
+                                                                                                    <xs:element name="dropIcon">
+                                                                                                        <xs:complexType>
+                                                                                                            <xs:simpleContent>
+                                                                                                                <xs:extension base="xs:string">
+                                                                                                                    <xs:attribute type="xs:string" name="content" use="optional" />
+                                                                                                                </xs:extension>
+                                                                                                            </xs:simpleContent>
+                                                                                                        </xs:complexType>
+                                                                                                    </xs:element>
+                                                                                                </xs:sequence>
+                                                                                            </xs:complexType>
+                                                                                        </xs:element>
+                                                                                    </xs:sequence>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="storeContent">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="storeDescription">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="descriptionLeft">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="descriptionLogo" />
+                                                    <xs:element type="xs:string" name="descriptionHeading" />
+                                                    <xs:element type="xs:string" name="descriptionPara" />
+                                                    <xs:element type="xs:string" name="descriptionButton" />
+                                                    <xs:element name="contacts">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="address">
+                                                                    <xs:complexType mixed="true">
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="addressIcon" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="telephone">
+                                                                    <xs:complexType mixed="true">
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="telephoneIcon" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="mail">
+                                                                    <xs:complexType mixed="true">
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="mailIcon" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="descriptionRight">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="sliderContainer">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="slider">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="sliderImage" />
+                                                                            <xs:element type="xs:string" name="sliderInfo" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="storeProducts">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="product" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="productView">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="productImageContainer">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="productImage" />
+                                                                            <xs:element name="productHover">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                        <xs:element name="productPreview">
+                                                                                            <xs:complexType mixed="true">
+                                                                                                <xs:sequence>
+                                                                                                    <xs:element type="xs:string" name="previewIcon" />
+                                                                                                </xs:sequence>
+                                                                                            </xs:complexType>
+                                                                                        </xs:element>
+                                                                                        <xs:element name="productWishlist">
+                                                                                            <xs:complexType mixed="true">
+                                                                                                <xs:sequence>
+                                                                                                    <xs:element type="xs:string" name="wishlistIcon" />
+                                                                                                </xs:sequence>
+                                                                                            </xs:complexType>
+                                                                                        </xs:element>
+                                                                                    </xs:sequence>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="productButtonContainer">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="buyButton" />
+                                                                            <xs:element type="xs:string" name="addCartButton" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="productDetail">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="detailContainer" maxOccurs="unbounded" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="detailQuestion" />
+                                                                            <xs:element type="xs:string" name="detailAnswer" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:string" name="product" use="optional" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
